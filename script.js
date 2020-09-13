@@ -24,9 +24,10 @@ $(function () {
     } else {
         (textInput.addClass("future"))
     }
-      
+    
+    var saveButton = $("<button class='col-sm-1 saveBtn'>Save</button>")  
 
-    row.append(rowHour, textInput);
+    row.append(rowHour, textInput, saveButton);
     $(".container").append(row);
   }
 
@@ -44,8 +45,9 @@ $(function () {
         (textInput.addClass("future"))
     }
 
+    var saveButton = $("<button class='col-sm-1 saveBtn'>Save</button>")
 
-    row.append(rowHour, textInput);
+    row.append(rowHour, textInput, saveButton);
     $(".container").append(row);
   }
 
