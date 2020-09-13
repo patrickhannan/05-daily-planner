@@ -16,7 +16,7 @@ This project is a daily planner that can be used for people to plan out their wo
 
 In order to access this application, the user can click on the link below to the home page of the website. From there they can use the navbar at the top to navigate the website.
 
-* [Coding Quiz](https://patrickhannan.github.io/05-daily-planner/)
+* [Daily Planner](https://patrickhannan.github.io/05-daily-planner/)
 
 From there, the user will be able to enter in any other text for each hour that they may need or want. They will be able to see the past hours in grey, the present hour in red, and the future hours in green. They will be able to click the save button to save each row, and when the close the page, it will save permanently so that their schedule will be there when they open the webpage next. 
 
