@@ -12,9 +12,9 @@ $(function () {
     var textInput = $("<textarea class='description col-sm-10 time-block'>");
     textInput.attr("data-time", workHours[i]);
 
-    if (textInput.attr("data-hour") < currentHour) {
+    if (textInput.attr("data-time") < currentHour) {
         textInput.addClass("past");
-      } else if (textInput.attr("data-hour") == currentHour) {
+      } else if (textInput.attr("data-time") == currentHour) {
         textInput.addClass("present");
       } else {
         textInput.addClass("future");
