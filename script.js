@@ -19,6 +19,10 @@ $(function () {
 
     if (textInput.attr("data-time") < militaryHours) {
           textInput.addClass("past")
+    } else if (textInput.attr("data-time") = militaryHours) {
+        textInput.addClass("present")
+    } else {
+        (textInput.addClass("future"))
     }
       
 
@@ -34,6 +38,10 @@ $(function () {
 
     if (textInput.attr("data-time") < militaryHours) {
         textInput.addClass("past")
+    } else if (textInput.attr("data-time") = militaryHours) {
+        textInput.addClass("present")
+    } else {
+        (textInput.addClass("future"))
     }
 
 
